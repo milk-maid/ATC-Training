@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap);
+    
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            /* background-color: #EDEDED; */
+       }
+      
+       li,
+       a,
+       button {
+          font-family: 'Poppins', sans-serif;
+          font-weight: 300;
+          font-size: 11px;
+          text-decoration: none;
+       }
+
+       header {
+           background-color: #fff;
+           display: flex;
+           justify-content: space-evenly;
+           align-items: center;
+           position: fixed;
+           padding: 2px 2%;
+           /* width: 100%; */
+       }
+
+       .logo {
+           cursor: pointer;
+           order: 1;
+           margin-left: auto;
+       }
+
+       nav {
+           order: 2;
+       }
+
+       .nav-links l1:nth-child(2) {
+           padding :  0 20px 0 0;
+       }
+
+       .nav-links {
+           list-style-type: none;
+           margin-right: auto;
+           /* position: absolute; */
+       }
+
+       .nav-links li {
+           display: inline-block;
+           padding: 0 3px;
+       }
+
+       .nav-links a {
+        transition: all 0.3s ease 0s;
+       }
+
+       .nav-links a:hover {
+           color: #0088a9;
+       }
+       .cta {
+           order: 3;
+       }
+
+       button {
+           padding: 9px 25px;
+           background-color: #7853f1;
+           color: seashell;
+           border: none;
+           border-radius: 9px;
+           cursor: pointer;
+           transition: all 0.3s ease 0s;
+           margin-left: 20px;
+           /* position: relative; */
+       }
+
+       button:hover {
+        background-color: rgb(122, 106, 214);
+       }
+
+
+    </style>
+    <title>ATC Figma Task</title>
+</head>
+<body>
+    <header>
+        <a href="figmatask.html"> 
+            <img src="img/Group 33044 3.png" alt="logo" class="logo">
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Price</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta"><button>Template</button></a>
+    </header>
+</body>
+</html>
